@@ -1,0 +1,638 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container{
+    padding: 0 15rem;
+}
+
+.cont{
+    padding: 0 5rem;
+}
+
+header{
+    position: fixed;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 15%;
+}
+
+.center{
+    width: 70%;
+    text-align: center;
+}
+
+.button{
+    width: 15%;
+}
+
+.logo img{
+      width: 100%;
+}
+
+.center a{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.button a{
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 13px 40px;
+    font-weight: bold;
+}
+
+
+.mask-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mask-all .left{
+    width: 40%;
+    margin-left: 5rem;
+}
+
+.mask-all .right{
+    width: 40%;
+    margin-right: 5rem;
+}
+
+.mask-all .right img{
+    width: 100%;
+}
+
+#Mask{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+    padding: 13.5rem 0;
+}
+
+.left h1{
+    font-size: 55px;
+    color: white;
+}
+
+.left p{
+      font-size: 15px;
+      color: white;
+      margin-bottom: 3rem;
+}
+
+.left a{
+    background-color: rgb(0, 107, 166);
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.left .all-layout {
+    position: relative;
+    width: 35%;
+    
+}
+
+
+
+#product{
+    padding: 8rem 0;
+}
+
+.pr-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.title::before{
+    content: "Masks";
+    position: absolute;
+    font-size: 120px;
+    opacity: 0.1;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pr-all .box{
+    width: 32%;
+    margin-bottom: 3rem;
+    transform: scale(1);
+    transition: 0.5s;
+   
+}
+
+
+.pr-all img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 15px 15px 0 0;
+
+}
+
+
+
+.pr-all .bottom{
+    background-color: #F2F2F2;
+    padding: 30px;
+    border-radius: 0 0 15px 15px;
+    
+}
+
+.pr-all .box:hover{
+    transform: scale(0.9);
+}
+
+.bottom a{
+    color: #293441;
+    font-size: 22px;
+}
+
+.bottom-left{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left span{
+    color: #223458;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.bottom-left i{
+      font-size: 15px;
+      color: grey;
+}
+
+#product .exp{
+    background-color:  rgb(0, 107, 166);
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 38rem;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+#Clinka{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083) ;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;
+    text-align: center;
+}
+
+
+.dont{
+    font-size: 36px;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    margin-right: 25rem;
+}
+
+
+.dont::before{
+    content: "Quality";
+    position: absolute;
+    font-size: 140px;
+    opacity: 0.2;
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#Clinka p{
+     font-size: 15px;
+     color: white;
+     margin-right: 25rem;
+     margin-bottom: 2rem;
+}
+
+#Clinka a{
+    margin-right: 25rem;
+    background-color: white;
+    color: #223458;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+#eye{
+    padding: 8rem 0;
+}
+
+.eye-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.text{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.text::before{
+    content: "Latest";
+    position: absolute;
+    font-size: 140px;
+    opacity: 0.1;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.eye-all .bx{
+    width: 32%;
+    margin-bottom: 3rem;
+    transform: scale(1);
+    transition: 0.5s;
+   
+}
+
+
+.eye-all img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 15px 15px 0 0;
+
+}
+
+
+
+.eye-all .btm{
+    background-color: #F2F2F2;
+    padding: 30px;
+    border-radius: 0 0 15px 15px;
+    
+}
+
+.eye-all .bx:hover{
+    transform: scale(0.9);
+}
+
+.btm a{
+    color: #293441;
+    font-size: 22px;
+}
+
+.btm-left{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btm-left span{
+    color: #223458;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.btm-left i{
+      font-size: 15px;
+      color: grey;
+}
+
+#eye .pro{
+    background-color:  rgb(0, 107, 166);
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 38rem;
+    color: white;
+    font-weight: bold; 
+}
+
+
+#subscribe{
+    text-align: center;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+    padding: 12rem;
+}
+
+#subscribe .txt{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.txt::before{
+    content: "Subscribe";
+    position: absolute;
+    font-size: 140px;
+    opacity: 0.1;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#subscribe p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#subscribe input{
+    outline: none;
+    border-radius: 30px;
+    padding: 1.5rem 12rem;
+    margin-left: 15rem;
+}
+
+.int{
+    position: relative;
+    width: 76%;
+}
+
+.anchor a{
+    background-color: #31648F;
+    padding: 13px 35px;
+    font-size: large;
+    border-radius: 30px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: white;
+}
+
+#Category{
+    padding: 10rem 0;
+}
+
+.categorys{
+    text-align: center;
+}
+
+.categorys .paragraph{
+   font-size: 36px;
+   color: black;
+   position: relative;
+}
+
+.paragraph::before{
+    content: "Categories";
+    position: absolute;
+    font-size: 140px;
+    opacity: 0.1;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+
+
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photo-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photo-2 .sng{
+    width: 45%;
+}
+
+.sng img{
+    width: 100%;
+    margin-top: 2rem;
+    height: 400px;
+    border-radius: 30px;
+}
+.sng{
+    position: relative;
+}
+
+.categorys p{
+   font-size: 15px;
+   color: grey;
+   margin-top: 2rem;
+}
+
+.png{
+    position: relative;
+    width: 29%;
+    margin-top: 3rem;
+}
+
+.png img{
+    border-radius: 30px;
+    height: 350px;
+    width: 100%;
+}
+
+.over{
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    background-color: #449FCF;;
+    bottom: 5px;
+    transition: 0.5s;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 92%;
+    background-color: #449FCF;;
+    bottom: 3px;
+    transition: 0.5s;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.png:hover .over{
+    opacity: 0.8;
+    border-radius: 30px;
+}
+
+.sng:hover .overlay{
+    opacity: 0.8;
+    border-radius: 30px;
+}
+
+.over h2{
+   text-align: center;
+   margin-top: 10rem;
+   color: white;
+   font-size: 30px;
+}
+
+.overlay h2{
+    text-align: center;
+    margin-top: 10rem;
+    color: white;
+    font-size: 30px;
+}
+
+.over p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.overlay p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+#Partners{
+    padding: 10rem 0;
+}
+
+
+
+
+.word{
+    text-align: center;
+}
+
+.word .part{
+    font-size: 36px;
+    position: relative;
+}
+
+.part::before{
+    content: "Partner";
+    position: absolute;
+    font-size: 140px;
+    opacity: 0.1;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.word p{
+    font-size: 16px;
+    color: grey;
+    margin-top: 1rem;
+}
+
+.partner-png{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jpg{
+    width:20%;
+    align-items: center;
+}
+
+.jpg img{
+    margin-top: 5rem;
+    width: 70%;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+.jpg img:hover{
+    filter: grayscale(0);
+}
+
+
+#Benefit{
+    padding: 15rem 0;
+    background-color: #F5F7FB;
+}
+
+
+
+.sentence .special{
+    font-size: 36px;
+    position: relative;
+}
+
+.special::before{
+    content: "Benefit";
+    position: absolute;
+    font-size: 140px;
+    opacity: 0.1;
+    top: -100px;
+    left: 29%;
+    transform: translateX(-100%)
+}
+
+.benefit-all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 50rem;
+}
+
+
+.sol{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.photo-gal{
+    width: 35%;
+    margin-bottom: 1rem;
+}
+
+.photo-gal img{
+    width: 40%;
+}
+
+.sag{
+    margin-bottom: 35rem;
+    width: 40%;
+}
+
+.photo-gal p{
+    font-size: 15px;
+    color: grey;
+}
